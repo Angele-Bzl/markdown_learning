@@ -5,7 +5,7 @@
 - 4 œufs frais
 - 50cl de lait entier ou demi-écrémé
 - 1 pincée de sel
-- 2 cuillères à soupe de sucre (optionnel pour les crêpes sucrées)
+- 2 cuillères à soupe de sucre *(optionnel pour les crêpes sucrées)*
 - 50g de beurre fondu
 ## Étapes de préparation
 <ins>Mélange à sec :</ins> Versez la farine et le sel dans un saladier. Creusez un puits au centre.
@@ -26,14 +26,7 @@ Si la pâte est trop épaisse, n'hésitez pas à rajouter un petit filet d'eau o
 
 > [Voici une autre recette marmiton](https://www.marmiton.org/recettes/recette_pate-a-crepes_12372.aspx)
 
-<img src="../crepe_salee.png"/>
-<img src="../crepe_sucre.png"/>
-<img src="../crepe_salee.png"/>
-<img src="../crepe_sucre.png"/>
-<img src="../crepe_salee.png"/>
-<img src="../crepe_sucre.png"/>
-<img src="../crepe_salee.png"/>
-<img src="../crepe_sucre.png"/>
+<img src="../crepe_salee.png"/><img src="../crepe_sucre.png"/><img src="../crepe_salee.png"/><img src="../crepe_sucre.png"/><img src="../crepe_salee.png"/><img src="../crepe_sucre.png"/><img src="../crepe_salee.png"/><img src="../crepe_sucre.png"/>
 
 ---
 config:
