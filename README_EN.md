@@ -114,7 +114,13 @@ Markdown supports six heading levels, defined by the number of # symbols before 
 	</summary> 
 <blockquote>
 
-### <ins>Italics</ins>
+### <ins>Italics</ins>[^Italics]
+
+[^Italics]: There are 4 ways to italicize text:   
+	" \_Text_ "  
+	" \*Text* "  
+	" \<i>Text\</i> "   
+	" \<em>Text\</em> "  
 <dl><dd>
 <details>
 	<summary>
@@ -191,7 +197,13 @@ Markdown supports six heading levels, defined by the number of # symbols before 
 </dd></dl>
 
 
-### <ins>Strikethrough</ins>
+### <ins>Strikethrough</ins>[^Strikethrough]
+[^Strikethrough]: There are 5 ways to strikethrough text:  
+	" \~Text~ "  
+	" \~~Text~~ "  
+	" \<s>Text\</s> "  
+	" \<strike>Text\</strike> "  
+	" \<del>Text\</del> "  
 <dl><dd>
 <details>
 	<summary>
@@ -925,6 +937,10 @@ This is a second line.
 [imagesdog]: https://www.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg
 [imagesgoat]: https://emploi.ouest-france.fr/sites/default/files/styles/originale/public/metier-pere-noel_0.jpg "Yes! This is the Father!"
 
+<img src="https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp" width="200" height="100">
+
+![img](https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp)
+
 1. ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg "on hover")
 1. ![][imagesdog]
 1. ![][imagesgoat]
@@ -942,12 +958,22 @@ This is a second line.
 [imagesdog]: https://www.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg
 [imagesgoat]: https://emploi.ouest-france.fr/sites/default/files/styles/originale/public/metier-pere-noel_0.jpg "oui c'est le papa"
 
+<img src="https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp" width="200" height="100">
+
+![img](https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp)
+
 1. ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg "on hover")
 2. ![][imagesdog]
 3. ![][imagesgoat]
 4. [tag_icon_md]: https://skillicons.dev/icons?i=md
 
 # ![][tag_icon_md] Markdown ![][tag_icon_md]
+```
+
+To resize images to the correct size, you can use the img tag.
+
+```
+<img src="source.png" width="200" height="100"/>
 ```
 
 </details>
@@ -1701,4 +1727,3 @@ $\color{orange}\text{ More graphs and options are available on }$ [mermaid.live]
 
 </details>
 </details>
-

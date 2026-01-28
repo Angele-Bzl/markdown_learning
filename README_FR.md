@@ -114,7 +114,13 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
     </summary> 
 <blockquote>
 
-### <ins>Italique</ins>
+### <ins>Italique</ins> [^Italique]
+
+[^Italique]: Il existe 4 facon de mettre en italique du texte:   
+	" \_Texte_ "  
+	" \*Texte* "  
+	" \<i>Texte\</i> "   
+	" \<em>Texte\</em> "  
 <dl><dd>
 <details>
     <summary>
@@ -191,7 +197,13 @@ Il y a six niveaux d’en-têtes disponibles en Markdown; ils sont indiqués par
 </dd></dl>
 
 
-### <ins>Barré</ins>
+### <ins>Barré</ins> [^Barre]
+[^Barre]: Il existe 5 facon de barré du texte:   
+	" \~Texte~ "  
+	" \~~Texte~~ "  
+	" \<s>Texte\</s> "  
+	" \<strike>Texte\</strike> "  
+	" \<del>Texte\</del> "  
 <dl><dd>
 <details>
     <summary>
@@ -925,6 +937,10 @@ This is a second line.
 [imagesdog]: https://www.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg
 [imagesgoat]: https://emploi.ouest-france.fr/sites/default/files/styles/originale/public/metier-pere-noel_0.jpg "oui c'est le papa"
 
+<img src="https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp" width="200" height="100">
+
+![img](https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp)
+
 1. ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg "on hover")
 1. ![][imagesdog]
 1. ![][imagesgoat]
@@ -942,12 +958,22 @@ This is a second line.
 [imagesdog]: https://www.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg
 [imagesgoat]: https://emploi.ouest-france.fr/sites/default/files/styles/originale/public/metier-pere-noel_0.jpg "oui c'est le papa"
 
+<img src="https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp" width="200" height="100">
+
+![img](https://www.markdownguide.org/assets/images/generated/assets/images/albuquerque-1080.webp)
+
 1. ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg "on hover")
 2. ![][imagesdog]
 3. ![][imagesgoat]
 4. [tag_icon_md]: https://skillicons.dev/icons?i=md
 
 # ![][tag_icon_md] Markdown ![][tag_icon_md]
+```
+
+Pour redimensionner des images a la bonne taille vous pouvez utiliser la balise img.
+
+```
+<img src="source.png" width="200" height="100"/>
 ```
 
 </details>
@@ -1705,4 +1731,3 @@ $\color{orange}\text{ Plus de Graph et d'options sont disponible sur}$ [mermaid.
 
 </details>
 </details>
-
